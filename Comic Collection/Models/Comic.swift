@@ -20,4 +20,18 @@ struct Comic: Codable {
     let img: String
     let title: String
     let day: String
+    
+    private enum CodingKeys: String, CodingKey {
+        case month, num, link, year, news, transcript, alt, img, title, day
+        case safeTitle = "safe_title"
+    }
+}
+
+extension Comic {
+    var date: Date? {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd-MM-yyyy"
+        formatter.timeZone = .current
+        return formatter.date(from: "\(day)-\(month)-\(year)")
+    }
 }
