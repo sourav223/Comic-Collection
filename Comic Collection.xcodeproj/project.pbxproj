@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1812BDB82EA74016009EA932 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1812BDB72EA74016009EA932 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1812BD9B2EA73E5F009EA932 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		1812BD8D2EA73E5C009EA932 /* Comic Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1812BD9A2EA73E5F009EA932 /* Comic CollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic CollectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1812BDA42EA73E5F009EA932 /* Comic CollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comic CollectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1812BDB72EA74016009EA932 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				1812BD9D2EA73E5F009EA932 /* Comic CollectionTests */,
 				1812BDA72EA73E5F009EA932 /* Comic CollectionUITests */,
 				1812BD8E2EA73E5C009EA932 /* Products */,
+				1812BDB72EA74016009EA932 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1812BDB82EA74016009EA932 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
