@@ -28,7 +28,7 @@ final class ComicViewModel: ObservableObject {
         loadComic(number: currentNum - 1)
     }
     func goToNextComic() {
-        guard let currentNum = currentComic?.num else { return }
+        guard let currentNum = currentComic?.num, currentNum < 3156 else { return }
         loadComic(number: currentNum + 1)
     }
     
