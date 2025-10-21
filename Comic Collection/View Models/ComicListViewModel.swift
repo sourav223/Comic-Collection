@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-// MARK: - 3. ViewModel (Presentation Logic)
+// MARK: - ViewModel (Presentation Logic)
 
 @MainActor
 final class ComicViewModel: ObservableObject {
